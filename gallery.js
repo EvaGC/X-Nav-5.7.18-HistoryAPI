@@ -5,7 +5,7 @@ function supports_history_api() {
 function swapPhoto(href) {
   var req = new XMLHttpRequest();
   req.open("GET",
-           "http://localhost:8000/gallery/" +
+           "https://evagc.github.io/X-Nav-5.7.18-HistoryAPI/" +
              href.split("/").pop(),
            false);
   req.send(null);
